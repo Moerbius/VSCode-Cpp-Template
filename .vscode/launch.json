@@ -5,6 +5,30 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(lldb) Windows",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\debug\\program.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "(lldb) Mac",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/debug/program",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }/* ,
+        {
             "name": "(gdb) Windows",
             "type": "cppdbg",
             "request": "launch",
@@ -24,35 +48,7 @@
                 }
             ],
             "preLaunchTask": "build DEBUG Windows"
-        },
-        
-        /*{
-            "name": "(lldb) Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/build/diablo1",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/build",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-        },
-        {
-            "name": "Check Memory Leaks",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "/usr/local/bin/valgrind",
-            "args": [
-                "--leak-check=yes",
-                "${workspaceFolder}/build/diablo1"
-            ],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-        },*/
+        } */
         
     ]
 }

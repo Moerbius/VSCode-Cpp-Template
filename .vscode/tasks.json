@@ -17,6 +17,55 @@
                 "reveal": "silent"
             },
             "problemMatcher": "$gcc"
+        },
+        {
+            "label": "build RELEASE Windows",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+				"src\\*.cpp",
+				"-o",
+				"build\\release\\program.exe"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "build DEBUG MAC",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+				"src/*.cpp",
+				"-o",
+				"build/debug/program",
+                "-DDEBUG"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "build RELEASE MAC",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+				"src/*.cpp",
+				"-o",
+				"build/release/program"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
         }
     ]
 }

@@ -14,6 +14,21 @@
             "cppStandard": "c++11",
             "compilerPath": "D:\\msys64\\mingw64\\bin\\g++",
             "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "MAC",
+            "includePath": [
+                //"D:\\msys64\\usr\\include",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cppStandard": "c++11"
+            //"compilerPath": "D:\\msys64\\mingw64\\bin\\g++",
+            //"intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
