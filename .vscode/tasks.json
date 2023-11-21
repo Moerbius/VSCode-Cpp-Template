@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build DEBUG Windows",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+				"src\\*.cpp",
+				"-o",
+				"build\\debug\\program.exe",
+                "-DDEBUG"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
