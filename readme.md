@@ -19,6 +19,8 @@ open CMD and run:
 
 g++ --version
 
+Install CodeLLDB extension
+
 Mac:
 
 Install CodeLLDB extension
